@@ -33,3 +33,6 @@ class bank():
             else:
                 print("Please enter correct commend!")
             app=input("Start or End:") 
+
+saving_bank=bank()
+saving_bank.start_application()
